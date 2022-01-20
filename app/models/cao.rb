@@ -1,0 +1,2 @@
+class Cao < ApplicationRecord
+end

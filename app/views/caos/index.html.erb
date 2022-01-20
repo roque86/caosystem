@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Caos</h1>
+
+<div id="caos">
+  <% @caos.each do |cao| %>
+    <%= render cao %>
+    <p>
+      <%= link_to "Show this cao", cao %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New cao", new_cao_path %>
